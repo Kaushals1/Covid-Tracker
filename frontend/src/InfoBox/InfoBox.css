@@ -1,0 +1,40 @@
+.infoBox {
+  flex: 1;
+  cursor: pointer;
+  border-radius: 20px !important;
+  transition-timing-function: ease-in !important;
+  transition: all 0.35s !important;
+  background-color: #000000 !important;
+  box-shadow: 8px 8px 10px rgb(63, 63, 63) !important;
+}
+.infoBox__title {
+  color: rgb(184, 180, 180) !important;
+  font-size: 1.2rem !important;
+}
+.infoBox:not(:last-child) {
+  margin-right: 15px;
+}
+.infoBox--selected {
+  border-top: 10px solid #7dd71d;
+}
+.infoBox--red {
+  border-color: red;
+}
+.infoBox__cases--green {
+  color: #7dd71d !important;
+  /* transition: all 2s ease-in 2s !important */
+}
+.infoBox__cases {
+  color: #cc1034;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-top: 10px !important;
+  /* margin-bottom: 0.5rem; */
+}
+
+.infoBox__total {
+  color: #6c757d !important;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  margin-top: 10px !important;
+}

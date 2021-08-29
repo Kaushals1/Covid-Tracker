@@ -1,0 +1,12 @@
+.leaflet-popup-content-wrapper,.leaflet-popup-tip ,.leaflet-control-zoom-in, .leaflet-control-zoom-out{
+    background-color: #353536 !important;
+
+}
+
+.info-confirmed,.info-recovered,.info-deaths{
+  color: #a3a2a2;
+
+}
+.info-name,.leaflet-control-zoom-in, .leaflet-control-zoom-out{
+    color:rgb(184, 180, 180) !important
+}
